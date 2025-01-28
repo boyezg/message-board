@@ -1,7 +1,11 @@
+# Exported from Render on 2025-01-28T15:57:39Z
 services:
-  - type: web
-    name: message-board
-    env: node
-    buildCommand: npm install
-    startCommand: node server.js
-    region: oregon
+- type: web
+  name: message-board
+  runtime: node
+  repo: https://github.com/boyezg/message-board
+  plan: free
+  region: oregon
+  buildCommand: npm
+  startCommand: npm install
+version: "1"
