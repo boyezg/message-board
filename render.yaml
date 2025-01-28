@@ -1,10 +1,11 @@
+# Exported from Render on 2025-01-28T16:47:25Z
 services:
-  - type: web
-    name: message-board
-    runtime: node
-    repo: https://github.com/boyezg/message-board
-    plan: free
-    region: oregon
-    buildCommand: npm install
-    startCommand: npm start
-    version: "1"
+- type: web
+  name: message-board
+  runtime: node
+  repo: https://github.com/boyezg/message-board
+  plan: free
+  region: oregon
+  buildCommand: npm
+  startCommand: npm install
+version: "1"
